@@ -16,11 +16,11 @@ import scala.Tuple2;
  * 2、从不买打折产品且不借款的用户 ID
  */
 public class JavaLoanAnalyze {
-    private static String path_click = "/Users/pangw/Downloads/bigdata/course_jdxd/data/jdxd/t_click";
-    private static String path_loan = "/Users/pangw/Downloads/bigdata/course_jdxd/data/jdxd/t_loan";
-    private static String path_loan_sum = "/Users/pangw/Downloads/bigdata/course_jdxd/data/jdxd/t_loan_sum";
-    private static String path_order = "/Users/pangw/Downloads/bigdata/course_jdxd/data/jdxd/t_order";
-    private static String path_user = "/Users/pangw/Downloads/bigdata/course_jdxd/data/jdxd/t_user";
+    private static String path_click = "/Users/pangw/pw_workspace/IdeaProjects/course_jdxd/data/jdxd/t_click";
+    private static String path_loan = "/Users/pangw/pw_workspace/IdeaProjects/course_jdxd/data/jdxd/t_loan";
+    private static String path_loan_sum = "/Users/pangw/pw_workspace/IdeaProjects/course_jdxd/data/jdxd/t_loan_sum";
+    private static String path_order = "/Users/pangw/pw_workspace/IdeaProjects/course_jdxd/data/jdxd/t_order";
+    private static String path_user = "/Users/pangw/pw_workspace/IdeaProjects/course_jdxd/data/jdxd/t_user";
     static String masterUrl = "local[1]";
 
     public static void main(String[] args) {
